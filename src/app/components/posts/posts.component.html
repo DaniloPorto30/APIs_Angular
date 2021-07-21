@@ -1,1 +1,5 @@
-<p>posts works!</p>
+<div *ngFor="let item of posts" >
+    <h4>{{item.id}}</h4>
+    <h2>{{item.title}}</h2>
+    <h4>{{item.body}}</h4>
+  </div>
