@@ -1,1 +1,7 @@
-<p>comments works!</p>
+<div class="card-comments" *ngFor="let item of comments" >
+    <h4>{{item.id}}</h4>
+    <h5>{{item.name}}</h5>
+    <p>{{item.email}}</p>
+    <p>{{item.body}}</p>
+  </div>
+

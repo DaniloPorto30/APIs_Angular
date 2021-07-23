@@ -12,12 +12,13 @@
   margin: 0 auto;
   font-size: 20px;
 }
-.footer-name a{
- margin: 5px;
+.footer-name a {
+  margin: 5px;
 }
-.footer-name b{
-    color: rgba(0, 0, 255, 0.555);
-   }
-.footer-name ,#git{
-    color: black;
+.footer-name b {
+  color: rgba(0, 0, 255, 0.555);
+}
+.footer-name,
+#git {
+  color: black;
 }
