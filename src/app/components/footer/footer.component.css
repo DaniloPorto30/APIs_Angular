@@ -1,7 +1,14 @@
-.card-footer{
-    background-color: #dbeafe;
-    height: 65px;
-    display: flex;
-    width: 100%;
-    margin-top: auto;
+* {
+  text-decoration: none;
+}
+.card-footer {
+  background-color: #dbeafe;
+  height: 65px;
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+}
+.footer-name {
+  margin: 0 auto;
+  font-size: 20px;
 }
