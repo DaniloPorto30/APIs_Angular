@@ -13,3 +13,9 @@ export class Comments {
     public title!: string;
     public body!: string;
 }
+
+export class Albums {
+
+    public id!: number;
+    public title!: string;
+}
