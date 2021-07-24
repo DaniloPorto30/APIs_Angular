@@ -19,3 +19,10 @@ export class Albums {
     public id!: number;
     public title!: string;
 }
+
+export class Todos {
+
+    public id!: number;
+    public title!: string;
+    public completed!: string;
+}

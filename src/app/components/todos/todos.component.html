@@ -1,1 +1,6 @@
-<p>todos works!</p>
+<div class="card-todos" *ngFor="let item of todos" >
+    <h4>{{item.id}}</h4>
+    <h5>{{item.title}}</h5>
+    <p>{{item.completed}}</p>
+  </div>
+

@@ -1,4 +1,6 @@
+import { PesquisarService } from './../../service/pesquisar.service';
 import { Component, OnInit } from '@angular/core';
+import { Todos } from 'src/app/jsonplaceholder.model';
 
 @Component({
   selector: 'app-todos',
@@ -6,10 +8,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./todos.component.css']
 })
 export class TodosComponent implements OnInit {
+ todos: any;
+ erro: any;
 
-  constructor() { }
+  constructor(private pesquisarService: PesquisarService) { 
 
-  ngOnInit(): void {
+  this.gettertodos();
+
+}
+  ngOnInit() {}
+    gettertodos(){
+       this.pesquisarService.getTodos().subscribe(
+         (data: Todos[])=>{
+           this.todos = data;
+         },
+         (error: any) =>{
+          this.erro = error;    
+          console.log("ERROR:", error);
+        }
+      );
   }
-
+ 
 }

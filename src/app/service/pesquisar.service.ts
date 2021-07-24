@@ -25,6 +25,10 @@ export class PesquisarService {
     return this.http.get("https://jsonplaceholder.typicode.com/todos")
   }
   
+  public getPhotos():Observable<any>{
+    return this.http.get("https://jsonplaceholder.typicode.com/photos")
+  }
+
   public getUsers():Observable<any>{
     return this.http.get("https://jsonplaceholder.typicode.com/users")
   }
