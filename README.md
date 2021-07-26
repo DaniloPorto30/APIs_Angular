@@ -1,5 +1,23 @@
 # JsonplaceholderApi
 
+I leave in this repository a Api with Angular.
+
+----
+
+#Tela API jsonplaceholder😉
+
+
+![alt text](https://github.com/DaniloPorto30/APIs_Angular/blob/main/jsonplaceholdergit.png?raw=true)
+
+----
+
+![alt text](https://github.com/DaniloPorto30/APIs_Angular/blob/main/jsonplaceholdergit2.png?raw=true)
+
+----
+
+![alt text](https://github.com/DaniloPorto30/APIs_Angular/blob/main/jsonplaceholdergit3.png?raw=true)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
 ## Development server
