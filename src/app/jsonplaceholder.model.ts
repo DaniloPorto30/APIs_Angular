@@ -34,3 +34,22 @@ export class Photos {
     public url!: string;
     public thumbnailUrl!: string;
 }
+
+export class Users {
+
+    public id!: number;
+    public name!: string;
+    public username!: string;
+    public email!: string;
+    public street!: string;
+    public suite!: string;
+    public city!: string;
+    public zipcode!: number;
+    public lat!: number;
+    public lng!: number;
+    public phone!: number;
+    public website!: string;
+    public name2!: string;
+    public catchPhrase!: string;
+    public bs!: string;
+}

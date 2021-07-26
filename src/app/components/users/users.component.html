@@ -1,1 +1,17 @@
-<p>users works!</p>
+<div class="card-users" *ngFor="let item of users">
+    <h4>{{item.id}}</h4>
+    <h5>{{item.name}}</h5>
+    <h6>{{item.username}}</h6>
+    <p>{{item.email}}</p>
+    <p>{{item.address.street}}</p>
+    <p>{{item.address.suite}}</p>
+    <p>{{item.address.city}}</p>
+    <p>{{item.address.zipcode}}</p>
+    <p>{{item.address.geo.lat}}</p>
+    <p>{{item.address.geo.lng}}</p>
+    <p>{{item.phone}}</p>
+    <p>{{item.website}}</p>
+    <p>{{item.company.name}}</p>
+    <p>{{item.company.catchPhrase}}</p>
+    <p>{{item.company.bs}}</p>
+</div>
