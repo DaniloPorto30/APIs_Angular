@@ -1,1 +1,7 @@
-<p>photos works!</p>
+<div class="card-photos" *ngFor="let item of photos" >
+    <h4>{{item.id}}</h4>
+    <h5>{{item.title}}</h5>
+    <img id="img600" [src]="item.url" alt="img600">
+    <img [src]="item.thumbnailUrl" alt="img150">
+  </div>
+
