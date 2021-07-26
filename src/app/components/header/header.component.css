@@ -38,6 +38,7 @@
   color: rgb(20, 7, 139) ;
   font-size: 20.2px;
 }
+
 /* Json Grid responsivo mobile */
 @media screen and (max-width: 414px) {
   .card-header {
