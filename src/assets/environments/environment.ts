@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  apiCovid : "https://api.covid19api.com/summary"
+  apiVacinaCovid : "https://covid-api.mmediagroup.fr/v1/vaccines?country=",
+  apiInfoCovid : "https://api.covid19api.com/summary"
 };
 
 /*

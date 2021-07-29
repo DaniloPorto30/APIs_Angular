@@ -1,0 +1,41 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.card-header {
+  height: auto;
+  max-width: 100%;
+  background-color: #2193fa;
+  margin: 0 auto;
+  display: flex;
+}
+.card-header .image img {
+  height: 80px;
+  width: 90%;
+}
+.card-header .image2 img {
+ padding-top: 20px;
+}
+/* NAVBAR */
+
+.navbar {
+  background-color: rgb(246, 241, 241);
+}
+.navbar a {
+  color: black;
+  font-size: 20px;
+}
+.navbar ul {
+  display: flex;
+  text-decoration: none;
+  margin: 0 auto;
+}
+.navbar li {
+  text-align: center;
+  margin: 10px 50px 10px 50px;
+}
+.navbar a:hover {
+  color: rgb(20, 7, 139);
+  font-size: 20.2px;
+}
